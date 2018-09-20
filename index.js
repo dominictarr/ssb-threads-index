@@ -1,6 +1,6 @@
 var Indexes = require('flumeview-query/indexes')
 var pkg = require('./package.json')
-exports.name = pkg.name
+exports.name = 'threads-index'
 exports.version = pkg.version
 //doesn't expose any methods, but adds an index that can be used
 //by ssb-query
